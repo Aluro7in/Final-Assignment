@@ -1,0 +1,43 @@
+C:\Users\Lenovo\mealmind\
+├── backend\
+│   ├── app.py
+│   ├── models.py
+│   ├── routes.py
+│   ├── ai_utils.py
+│   └── database.db
+├── frontend\
+│   ├── public\
+│   │   └── index.html
+│   ├── src\
+│   │   ├── index.js  (just added)
+│   │   ├── App.js
+│   │   ├── components\
+│   │   │   └── Navbar.js
+│   │   └── pages\
+│   │       ├── Home.js
+│   │       ├── SignIn.js
+│   │       ├── Dashboard.js
+│   │       ├── RecipeSearch.js
+│   │       ├── AskAI.js
+│   │       └── Payment.js
+│   └── package.json 
+
+
+
+MealMind/
+├── backend/                  # Backend code (Flask API)
+│   ├── app.py # Main Flask app
+│   ├── models.py             # Database models (User, Meal, etc.)
+│   ├── routes.py             # API endpoints
+│   ├── ai_utils.py           # AI integration (OpenAI, Vision API)
+│   └── database.db           # SQLite database
+├── frontend/                 # Frontend code (React)
+│   ├── public/               # Static files
+│   ├── src/                  # React source code
+│   │   ├── components/       # Reusable UI components
+│   │   ├── pages/            # Page components (Home, SignIn, etc.)
+│   │   ├── App.js            # Main React app
+│   │   └── index.js          # Entry point
+│   └── package.json          # Frontend dependencies
+├── README.md                 # Project documentation
+└── requirements.txt          # Backend dependencies
